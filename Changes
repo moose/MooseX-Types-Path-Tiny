@@ -2,6 +2,7 @@ Revision history for MooseX-Types-Path-Tiny
 
 {{$NEXT}}
     - repository migrated to the github moose organization
+    - switch from Test::Requires to Test::Needs in tests
 
 0.011     2014-08-30 03:17:07Z
     - documentation amendments (thanks, Demian Riccardi!)
