@@ -4,6 +4,7 @@ Revision history for MooseX-Types-Path-Tiny
     - repository migrated to the github moose organization
     - switch from Test::Requires to Test::Needs in tests
     - add MooseX::Getopt option type maps when MooseX::Getopt is installed
+      (thanks, Gregory Oschwald!)
 
 0.011     2014-08-30 03:17:07Z
     - documentation amendments (thanks, Demian Riccardi!)
