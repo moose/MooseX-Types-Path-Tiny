@@ -5,7 +5,7 @@ package MooseX::Types::Path::Tiny;
 # KEYWORDS: moose type constraint path filename directory
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 
-our $VERSION = '0.012';
+our $VERSION = '0.013';
 
 use Moose 2;
 use MooseX::Types::Stringlike qw/Stringable/;
