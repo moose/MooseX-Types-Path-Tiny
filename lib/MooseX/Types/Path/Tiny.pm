@@ -70,8 +70,7 @@ coerce(
 
 
 # optionally add Getopt option type (adapted from MooseX::Types:Path::Class)
-eval { require MooseX::Getopt; };
-if ( !$@ ) {
+if (eval { require MooseX::Getopt; 1 }) {
     for my $type (
         'Path::Tiny',
         Path ,
