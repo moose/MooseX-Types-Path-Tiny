@@ -7,7 +7,6 @@ package MooseX::Types::Path::Tiny;
 
 our $VERSION = '0.013';
 
-use Moose 2;
 use MooseX::Types::Stringlike qw/Stringable/;
 use MooseX::Types::Moose qw/Str ArrayRef/;
 use MooseX::Types -declare => [qw/
