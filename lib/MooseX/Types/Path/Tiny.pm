@@ -56,7 +56,7 @@ coerce(
     from Path()       => via { [ $_ ] },
     from Str()        => via { [ Path::Tiny::path($_) ] },
     from Stringable() => via { [ Path::Tiny::path($_) ] },
-    from ArrayRef()   => via { [ map { Path::Tiny::path($_) } @$_ ] },
+    from ArrayRef()   => via { [ map Path::Tiny::path($_), @$_ ] },
 );
 
 coerce(
@@ -64,7 +64,7 @@ coerce(
     from AbsPath()    => via { [ $_ ] },
     from Str()        => via { [ Path::Tiny::path($_)->absolute ] },
     from Stringable() => via { [ Path::Tiny::path($_)->absolute ] },
-    from ArrayRef()   => via { [ map { Path::Tiny::path($_)->absolute } @$_ ] },
+    from ArrayRef()   => via { [ map Path::Tiny::path($_)->absolute, @$_ ] },
 );
 
 
