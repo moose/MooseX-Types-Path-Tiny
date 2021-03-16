@@ -1,6 +1,7 @@
 Revision history for MooseX-Types-Path-Tiny
 
 {{$NEXT}}
+    - remove inadvertent addition of MooseX::Getopt to requirements list
 
 0.012     2017-04-05 23:17:14Z
     - repository migrated to the github moose organization
